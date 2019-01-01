@@ -1,0 +1,249 @@
+/*banner*/
+
+#qf .banner {
+    height: 267px;
+    background: url("../images/qf-recruitment-main.jpg") no-repeat center center;
+}
+
+/*main*/
+.main {
+    height: 979px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.main .path {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.main .path .path-box {
+    width: 974px;
+    margin: 0 auto;
+    padding-left: 26px;
+    background: url("../images/house.png") no-repeat left center;
+}
+
+.main .path span {
+    vertical-align: middle;
+    display: inline-block;
+    height: 44px;
+    width: 11px;
+    background: url("../images/path-biger.png") no-repeat center center;
+}
+
+.main .path a {
+    vertical-align: middle;
+    color: #646464;
+}
+
+.aboutqf-l {
+    position: relative;
+    width: 223px;
+    height: 895px;
+    background: url("../images/item-bg.png") repeat-y;
+}
+
+.aboutqf-l > h2 {
+    background: #e5e5e5 url("../images/人才服务.png") no-repeat center center;
+    height: 77px;
+    border-bottom: 1px solid #d7d2d8;
+    border-right: 8px solid #f7f7f7;
+}
+
+.aboutqf-l ul li {
+    height: 56px;
+    border-top: 1px solid #faf5fb;
+    border-bottom: 1px solid #d7d2d8;
+    border-right: 8px solid #f7f7f7;
+    line-height: 56px;
+    text-align: center;
+    font-size: 16px;
+    color: #484445;
+}
+
+.aboutqf-l li.selected {
+    background: #f15a23;
+    border-right: 8px solid #ff9958;
+}
+
+.aboutqf-l .bg {
+    width: 223px;
+    height: 33px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url("../images/talent_lf_bg.png") no-repeat center center;
+}
+
+.aboutqf-r {
+    width: 737px;
+}
+
+.aboutqf-r h3 {
+
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 110px;
+    height: 28px;
+    font-size: 18px;
+    line-heigt: 28px;
+    border-bottom: 2px solid #f15a21;
+    padding: 0 12px 0 26px;
+    background: url("../images/橙色.png") no-repeat 5px center;
+}
+
+.aboutqf-r .dashed {
+    width: 627px;
+    height: 37px;
+    border-bottom: 1px dashed #cbcbcb;
+}
+
+.aboutqf-r .ct {
+    margin-top: 31px;
+}
+
+.ct .ct-top {
+    height: 232px;
+    width: 100%;
+    background: url("../images/企业架构.png") no-repeat 62px 0;
+}
+
+.ct .ct-center {
+    height: 383px;
+    border: 1px solid #dedede;
+}
+
+.ct-center .ct-c-l {
+    width: 321px;
+    background: url("../images/qf-recuritment-spa.png") no-repeat right center;
+}
+
+.ct-c-l h4 {
+    width: 224px;
+    height: 62px;
+    background: url("../images/joinuskey.png") no-repeat;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.ct-c-l .ct-c-l-c {
+    width: 200px;
+    margin-left: 54px;
+    margin-top: -4px;
+}
+
+.ct-c-l .ct-c-l-c img {
+    margin-left: 73px;
+    margin-top: 30px;
+}
+
+.ct-c-l .ct-c-l-c p {
+    line-height: 36px;
+    font-size: 14px;
+    font-family: SimSun;
+}
+
+.ct-c-l .ct-c-l-c p:last-of-type{
+    margin-top: 10px;
+}
+
+.ct-c-l .ct-c-l-c p span {
+    color: red;
+}
+
+.ct-c-l .ct-c-l-c hr {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.ct-c-l h4 p {
+    line-height: 36px;
+}
+.ct-c-r {
+    /*width: 417px;*/
+    /*padding-left: 49px;*/
+    padding-top: 40px;
+}
+.ct-c-r input {
+    /*float: left;*/
+    box-sizing: border-box;
+    display: inline-block;
+    width: 257px;
+    height: 33px;
+    padding-left: 5px;
+    padding-right: 40px;
+    border: 1px solid #cccccc;
+    vertical-align: middle;
+}
+
+.ct-c-r input[type=submit] {
+    margin-top: 20px;
+    background-color: #ff7d2b;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    padding: 0;
+}
+
+.ct-c-r li {
+    box-sizing: border-box;
+    height: 48px;
+    width: 414px;
+    text-align: right;
+    padding-right: 37px;
+    position: relative;
+}
+
+.ct-c-r li i {
+    display: block;
+    height: 48px;
+    width: 40px;
+    background: url("../images/人才服务栏目_03.png") no-repeat center center;
+    position: absolute;
+    right: 40px;
+    top: 0  ;
+}
+.ct-c-r li:nth-of-type(2) i {
+    background: url("../images/人才服务栏目_06.png") no-repeat center center;
+}
+
+.ct-c-r li:nth-of-type(3) i {
+    background: url("../images/人才服务栏目_08.png") no-repeat center center;
+}
+
+.ct-c-r li:nth-of-type(4) i {
+    background: url("../images/人才服务栏目_11.png") no-repeat center center;
+}
+
+.ct-c-r li:nth-of-type(5) i {
+    background: url("../images/人才服务栏目_15.png") no-repeat center center;
+}
+
+
+
+.ct-c-r li span {
+    text-align: right;
+    line-height: 48px;
+    vertical-align: middle;
+    padding-right: 18px;
+    color: #999999;
+}
+.ct-bottom {
+    padding-left: 5px;
+    padding-top: 63px;
+}
+.ct-bottom img {
+    border: 1px solid #d3d3d3;
+    width: 171px;
+    height: 62px;
+    display: block;
+    float: left;
+    margin-right: 11px;
+    margin-top: 9px;
+}
+
+.ct-bottom .k {
+    margin-right: 0;
+}
+

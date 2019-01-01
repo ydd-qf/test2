@@ -1,0 +1,114 @@
+/*main*/
+
+#qf .banner {
+    height: 267px;
+    background: url("../images/zjqf-main.jpg") no-repeat center center;
+}
+
+/*content*/
+.main {
+    height: 690px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.main .path {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.main .path .path-box {
+    width: 974px;
+    margin: 0 auto;
+    padding-left: 26px;
+    background: url("../images/house.png") no-repeat left center;
+}
+
+.main .path span {
+    vertical-align: middle;
+    display: inline-block;
+    height: 44px;
+    width: 11px;
+    background: url("../images/path-biger.png") no-repeat center center;
+}
+
+.main .path a {
+    vertical-align: middle;
+    color: #646464;
+}
+
+.aboutqf-l {
+    position: relative;
+    width: 223px;
+    height: 605px;
+    background: url("../images/item-bg.png") repeat-y;
+}
+.aboutqf-l h2{
+    background: #e5e5e5 url("../images/走进千峰.png") no-repeat center center;
+    height: 77px;
+    border-bottom: 1px solid #d7d2d8;
+    border-right: 8px solid #f7f7f7;
+}
+
+.aboutqf-l ul li {
+    height: 56px;
+    border-top: 1px solid #faf5fb ;
+    border-bottom: 1px solid #d7d2d8;
+    border-right: 8px solid #f7f7f7;
+
+    line-height: 56px;
+    text-align: center;
+    font-size: 16px;
+    color: #484445;
+}
+
+.aboutqf-l li.selected {
+    background: #f15a23;
+    border-right: 8px solid #ff9958;
+}
+
+.aboutqf-l .bg {
+    width: 223px;
+    height: 33px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url("../images/talent_lf_bg.png") no-repeat center center;
+}
+
+.aboutqf-r {
+    width: 737px;
+}
+
+.aboutqf-r h3 {
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 110px;
+    height: 28px;
+    font-size: 18px;
+    line-heigt: 28px;
+    border-bottom: 2px solid #f15a21;
+    padding:0 12px 0 26px;
+    background: url("../images/橙色.png") no-repeat 5px center;
+}
+
+.aboutqf-r div.fl {
+    width: 627px;
+    height: 37px;
+    border-bottom: 1px dashed #cbcbcb;
+}
+
+.aboutqf-r .ct {
+    margin-top: 35px;
+    padding: 0 20px 0;
+
+}
+
+.aboutqf-r .ct p {
+    text-indent: 2em;
+    line-height: 28px;
+    font-size: 14px;
+    margin-bottom: 23px;
+}
+

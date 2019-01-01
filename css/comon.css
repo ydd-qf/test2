@@ -1,0 +1,128 @@
+#qf {
+    width: 100%;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+/*header*/
+#qf .header {
+    height: 62px;
+    background-color: #232323;
+}
+
+.header h1 {
+    width: 207px;
+    height: 62px;
+    background: url("../images/qf_logo.jpg") no-repeat center center;
+    text-indent: -1000px;
+}
+
+.header .nav li {
+    float: left;
+    text-align: center;
+    background: url("../images/qf_nav_bg.png") no-repeat right center;
+}
+
+.header .nav li a {
+    display: block;
+    height: 62px;
+    line-height: 62px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 15px;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.header .nav li a:hover {
+    background: #f15a23;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.header .nav .nav-bg {
+    background: #232323;
+}
+
+/*link*/
+
+#qf .link {
+    height: 214px;
+    background: #222222;
+}
+
+.link .link-left {
+    width: 483px;
+    height: 164px;
+    padding-top: 38px;
+    padding-left: 10px;
+    background: url("../images/qf_bot_line.png") no-repeat right center;
+}
+
+.link .link-left dl {
+    text-align: center;
+    float: left;
+    margin-right: 40px;
+}
+
+.link .link-left dl:last-of-type{
+    margin-right: 0;
+}
+.link .link-left dl dt {
+
+    color: #fff;
+    font-size: 12px;
+    line-height: 36px;
+}
+
+.link .link-left dl dd {
+    font-size: 12px;
+    line-height: 24px;
+}
+.link .link-left dl dd a {
+    color: #999999;
+}
+
+.link .link-center {
+    width: 315px;
+    height: 214px;
+    background: url("../images/qf_map.png") no-repeat center center;
+}
+
+.link .link-right {
+    width: 146px;
+    text-align: center;
+    padding-left: 35px;
+    background: url("../images/qf_bot_line.png") no-repeat left center;
+    padding-top: 20px;
+}
+
+.link .link-right span {
+    color: #464646;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+/*footer*/
+
+#qf .footer {
+    font-size: 12px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #101010;
+    color: #979797;
+}
+
+.footer a {
+    color: #979797;
+}
+

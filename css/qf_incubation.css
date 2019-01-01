@@ -1,0 +1,65 @@
+/*banner*/
+
+#qf .banner {
+    height: 267px;
+    background: url("../images/banner-3.png") no-repeat center center;
+}
+
+/*main*/
+.main {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.main .path {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.main .path .path-box {
+    width: 974px;
+    margin: 0 auto;
+    padding-left: 26px;
+    background: url("../images/house.png") no-repeat left center;
+}
+
+.main .path span {
+    vertical-align: middle;
+    display: inline-block;
+    height: 44px;
+    width: 11px;
+    background: url("../images/path-biger.png") no-repeat center center;
+}
+
+.main .path a {
+    vertical-align: middle;
+    color: #646464;
+}
+.main p{
+    font-size: 14px;
+    line-height: 28px;
+    text-indent: 2em;
+    color: #666;
+    margin-top: 30px;
+}
+
+.ct-part1 span{
+    color: #f15a23;
+}
+.main .ct-part2{
+    color: #111;
+}
+.main .ct-part3{
+    text-indent: 0;
+    padding-left: 2em;
+    color: #666;
+}
+.main .ct-part5{
+    font-size: 18px;
+    color: #f15a23;
+    padding: 26px 0 42px;
+}
+.main .ct-pic{
+    margin-bottom: 100px;
+}
